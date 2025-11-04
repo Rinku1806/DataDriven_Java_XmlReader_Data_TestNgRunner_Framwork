@@ -1,0 +1,8 @@
+runner\Runner.class
+testcases\HomePageTest.class
+testcases\DashBoardTest.class
+testbase\BaseTest.class
+utilities\DataUtil.class
+testcases\StoreEntryTest.class
+listener\MyTestNGListener.class
+runner\TestNGRunner.class

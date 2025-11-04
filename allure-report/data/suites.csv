@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Oct 22 16:44:30 IST 2025","Wed Oct 22 16:44:33 IST 2025","3517","JPetStore","VerifySignInButtonPresence","testcases.StoreEntryTest","testcases.StoreEntryTest","VerifySignInButtonPresence","VerifySignInButtonPresence",""
+"passed","Wed Oct 22 16:44:40 IST 2025","Wed Oct 22 16:44:52 IST 2025","11855","JPetStore","Verifylogin","testcases.StoreEntryTest","testcases.StoreEntryTest","Verifylogin","Verifylogin",""
+"passed","Wed Oct 22 16:44:27 IST 2025","Wed Oct 22 16:44:30 IST 2025","2827","JPetStore","VerifyHomePageTitle","testcases.HomePageTest","testcases.HomePageTest","VerifyHomePageTitle","VerifyHomePageTitle",""
+"passed","Wed Oct 22 16:44:34 IST 2025","Wed Oct 22 16:44:39 IST 2025","5483","JPetStore","VerifyStoreEntryTitle","testcases.StoreEntryTest","testcases.StoreEntryTest","VerifyStoreEntryTitle","VerifyStoreEntryTitle",""

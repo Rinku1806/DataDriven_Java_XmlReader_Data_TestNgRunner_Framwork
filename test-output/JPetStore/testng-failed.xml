@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [JPetStore]" guice-stage="DEVELOPMENT">
+  <parameter name="runmode" value="Y"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="iteration" value="5"/>
+  <parameter name="suitename" value="JPetStore"/>
+  <listeners>
+    <listener class-name="listener.MyTestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="VerifyHomePageTitle(failed)">
+    <classes>
+      <class name="testcases.HomePageTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="VerifyHomePageTitle"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcases.HomePageTest -->
+    </classes>
+  </test> <!-- VerifyHomePageTitle(failed) -->
+  <test thread-count="5" name="VerifySignInButtonPresence(failed)">
+    <classes>
+      <class name="testcases.StoreEntryTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="VerifySignInButtonPresence"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcases.StoreEntryTest -->
+    </classes>
+  </test> <!-- VerifySignInButtonPresence(failed) -->
+  <test thread-count="5" name="VerifyStoreEntryTitle(failed)">
+    <classes>
+      <class name="testcases.StoreEntryTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="VerifyStoreEntryTitle"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcases.StoreEntryTest -->
+    </classes>
+  </test> <!-- VerifyStoreEntryTitle(failed) -->
+  <test thread-count="5" name="Verifylogin(failed)">
+    <classes>
+      <class name="testcases.StoreEntryTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="Verifylogin"/>
+        </methods>
+      </class> <!-- testcases.StoreEntryTest -->
+    </classes>
+  </test> <!-- Verifylogin(failed) -->
+</suite> <!-- Failed suite [JPetStore] -->
