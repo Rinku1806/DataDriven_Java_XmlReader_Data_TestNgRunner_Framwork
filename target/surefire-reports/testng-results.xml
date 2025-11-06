@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-23T13:31:53 IST" name="JPetStore" finished-at="2025-10-23T13:32:18 IST" duration-ms="24768">
+  <suite started-at="2025-11-06T19:04:03 IST" name="JPetStore" finished-at="2025-11-06T19:04:28 IST" duration-ms="24787">
     <groups>
     </groups>
-    <test started-at="2025-10-23T13:31:53 IST" name="VerifyHomePageTitle" finished-at="2025-10-23T13:31:57 IST" duration-ms="3963">
+    <test started-at="2025-11-06T19:04:03 IST" name="VerifyHomePageTitle" finished-at="2025-11-06T19:04:07 IST" duration-ms="3916">
       <class name="testcases.HomePageTest">
-        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.HomePageTest@737a135b]" started-at="2025-10-23T13:31:53 IST" name="beforeTest" finished-at="2025-10-23T13:31:53 IST" duration-ms="471" status="PASS">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.HomePageTest@737a135b]" started-at="2025-11-06T19:04:03 IST" name="beforeTest" finished-at="2025-11-06T19:04:04 IST" duration-ms="450" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@36d582cb]]>
+                <![CDATA[org.testng.TestRunner@46ea78f0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.HomePageTest@737a135b]" started-at="2025-10-23T13:31:53 IST" name="beforeMethod" finished-at="2025-10-23T13:31:53 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.HomePageTest@737a135b]" started-at="2025-11-06T19:04:04 IST" name="beforeMethod" finished-at="2025-11-06T19:04:04 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@36d582cb]]>
+                <![CDATA[org.testng.TestRunner@46ea78f0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="VerifyHomePageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@737a135b]" started-at="2025-10-23T13:31:53 IST" name="VerifyHomePageTitle" data-provider="dp" finished-at="2025-10-23T13:31:57 IST" duration-ms="3105" status="PASS">
+        <test-method signature="VerifyHomePageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@737a135b]" started-at="2025-11-06T19:04:04 IST" name="VerifyHomePageTitle" data-provider="dp" finished-at="2025-11-06T19:04:07 IST" duration-ms="3093" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,11 +55,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyHomePageTitle -->
-        <test-method is-config="true" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.HomePageTest@737a135b]" started-at="2025-10-23T13:31:57 IST" name="quit" finished-at="2025-10-23T13:31:57 IST" duration-ms="306" status="PASS">
+        <test-method is-config="true" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.HomePageTest@737a135b]" started-at="2025-11-06T19:04:07 IST" name="quit" finished-at="2025-11-06T19:04:07 IST" duration-ms="292" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@36d582cb]]>
+                <![CDATA[org.testng.TestRunner@46ea78f0]]>
               </value>
             </param>
           </params>
@@ -68,31 +68,31 @@
         </test-method> <!-- quit -->
       </class> <!-- testcases.HomePageTest -->
     </test> <!-- VerifyHomePageTitle -->
-    <test started-at="2025-10-23T13:31:57 IST" name="VerifySignInButtonPresence" finished-at="2025-10-23T13:32:00 IST" duration-ms="3525">
+    <test started-at="2025-11-06T19:04:07 IST" name="VerifySignInButtonPresence" finished-at="2025-11-06T19:04:11 IST" duration-ms="3564">
       <class name="testcases.StoreEntryTest">
-        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@5ef6ae06]" started-at="2025-10-23T13:31:57 IST" name="beforeTest" finished-at="2025-10-23T13:31:57 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@5ef6ae06]" started-at="2025-11-06T19:04:07 IST" name="beforeTest" finished-at="2025-11-06T19:04:07 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6c2a95d5]]>
+                <![CDATA[org.testng.TestRunner@5889fc44]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@5ef6ae06]" started-at="2025-10-23T13:31:57 IST" name="beforeMethod" finished-at="2025-10-23T13:31:57 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@5ef6ae06]" started-at="2025-11-06T19:04:07 IST" name="beforeMethod" finished-at="2025-11-06T19:04:07 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6c2a95d5]]>
+                <![CDATA[org.testng.TestRunner@5889fc44]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="VerifySignInButtonPresence(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.StoreEntryTest@5ef6ae06]" started-at="2025-10-23T13:31:57 IST" name="VerifySignInButtonPresence" data-provider="dp" finished-at="2025-10-23T13:32:00 IST" duration-ms="3412" status="PASS">
+        <test-method signature="VerifySignInButtonPresence(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.StoreEntryTest@5ef6ae06]" started-at="2025-11-06T19:04:07 IST" name="VerifySignInButtonPresence" data-provider="dp" finished-at="2025-11-06T19:04:11 IST" duration-ms="3443" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -118,11 +118,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySignInButtonPresence -->
-        <test-method is-config="true" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@5ef6ae06]" started-at="2025-10-23T13:32:00 IST" name="quit" finished-at="2025-10-23T13:32:00 IST" duration-ms="107" status="PASS">
+        <test-method is-config="true" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@5ef6ae06]" started-at="2025-11-06T19:04:11 IST" name="quit" finished-at="2025-11-06T19:04:11 IST" duration-ms="114" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6c2a95d5]]>
+                <![CDATA[org.testng.TestRunner@5889fc44]]>
               </value>
             </param>
           </params>
@@ -131,31 +131,31 @@
         </test-method> <!-- quit -->
       </class> <!-- testcases.StoreEntryTest -->
     </test> <!-- VerifySignInButtonPresence -->
-    <test started-at="2025-10-23T13:32:00 IST" name="VerifyStoreEntryTitle" finished-at="2025-10-23T13:32:06 IST" duration-ms="5487">
+    <test started-at="2025-11-06T19:04:11 IST" name="VerifyStoreEntryTitle" finished-at="2025-11-06T19:04:16 IST" duration-ms="5494">
       <class name="testcases.StoreEntryTest">
-        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@604f2bd2]" started-at="2025-10-23T13:32:00 IST" name="beforeTest" finished-at="2025-10-23T13:32:00 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@604f2bd2]" started-at="2025-11-06T19:04:11 IST" name="beforeTest" finished-at="2025-11-06T19:04:11 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@24d8f87a]]>
+                <![CDATA[org.testng.TestRunner@6598caab]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@604f2bd2]" started-at="2025-10-23T13:32:00 IST" name="beforeMethod" finished-at="2025-10-23T13:32:00 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@604f2bd2]" started-at="2025-11-06T19:04:11 IST" name="beforeMethod" finished-at="2025-11-06T19:04:11 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@24d8f87a]]>
+                <![CDATA[org.testng.TestRunner@6598caab]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="VerifyStoreEntryTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.StoreEntryTest@604f2bd2]" started-at="2025-10-23T13:32:00 IST" name="VerifyStoreEntryTitle" data-provider="dp" finished-at="2025-10-23T13:32:06 IST" duration-ms="5351" status="PASS">
+        <test-method signature="VerifyStoreEntryTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.StoreEntryTest@604f2bd2]" started-at="2025-11-06T19:04:11 IST" name="VerifyStoreEntryTitle" data-provider="dp" finished-at="2025-11-06T19:04:16 IST" duration-ms="5358" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -181,11 +181,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyStoreEntryTitle -->
-        <test-method is-config="true" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@604f2bd2]" started-at="2025-10-23T13:32:06 IST" name="quit" finished-at="2025-10-23T13:32:06 IST" duration-ms="129" status="PASS">
+        <test-method is-config="true" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@604f2bd2]" started-at="2025-11-06T19:04:16 IST" name="quit" finished-at="2025-11-06T19:04:16 IST" duration-ms="125" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@24d8f87a]]>
+                <![CDATA[org.testng.TestRunner@6598caab]]>
               </value>
             </param>
           </params>
@@ -194,31 +194,31 @@
         </test-method> <!-- quit -->
       </class> <!-- testcases.StoreEntryTest -->
     </test> <!-- VerifyStoreEntryTitle -->
-    <test started-at="2025-10-23T13:32:06 IST" name="Verifylogin" finished-at="2025-10-23T13:32:18 IST" duration-ms="11771">
+    <test started-at="2025-11-06T19:04:16 IST" name="Verifylogin" finished-at="2025-11-06T19:04:28 IST" duration-ms="11793">
       <class name="testcases.StoreEntryTest">
-        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@628c4ac0]" started-at="2025-10-23T13:32:06 IST" name="beforeTest" finished-at="2025-10-23T13:32:06 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@628c4ac0]" started-at="2025-11-06T19:04:16 IST" name="beforeTest" finished-at="2025-11-06T19:04:16 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3f048c86]]>
+                <![CDATA[org.testng.TestRunner@47f2c722]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@628c4ac0]" started-at="2025-10-23T13:32:06 IST" name="beforeMethod" finished-at="2025-10-23T13:32:06 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@628c4ac0]" started-at="2025-11-06T19:04:16 IST" name="beforeMethod" finished-at="2025-11-06T19:04:16 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3f048c86]]>
+                <![CDATA[org.testng.TestRunner@47f2c722]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="Verifylogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.StoreEntryTest@628c4ac0]" started-at="2025-10-23T13:32:06 IST" name="Verifylogin" data-provider="dp" finished-at="2025-10-23T13:32:18 IST" duration-ms="11634" status="PASS">
+        <test-method signature="Verifylogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.StoreEntryTest@628c4ac0]" started-at="2025-11-06T19:04:16 IST" name="Verifylogin" data-provider="dp" finished-at="2025-11-06T19:04:28 IST" duration-ms="11647" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -244,11 +244,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verifylogin -->
-        <test-method is-config="true" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@628c4ac0]" started-at="2025-10-23T13:32:18 IST" name="quit" finished-at="2025-10-23T13:32:18 IST" duration-ms="131" status="PASS">
+        <test-method is-config="true" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@628c4ac0]" started-at="2025-11-06T19:04:28 IST" name="quit" finished-at="2025-11-06T19:04:28 IST" duration-ms="140" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3f048c86]]>
+                <![CDATA[org.testng.TestRunner@47f2c722]]>
               </value>
             </param>
           </params>

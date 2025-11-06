@@ -1,5 +1,5 @@
+util\Xml_Reader.class
 keywords\GenericKeywords.class
 keywords\ValidationKeywords.class
 reports\ExtentManager.class
-util\Xml_Reader.class
 keywords\ApplicationKeywords.class

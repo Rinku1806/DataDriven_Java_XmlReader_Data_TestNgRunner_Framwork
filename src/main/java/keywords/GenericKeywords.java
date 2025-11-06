@@ -31,6 +31,7 @@ import org.testng.asserts.SoftAssert;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import reports.ExtentManager;
 
 public class GenericKeywords {
@@ -68,14 +69,14 @@ public class GenericKeywords {
 			}
 		} else { // local machine
 			if (browser.equals("chrome")) {
-				System.setProperty("webdriver.chrome.driver", "C:\\Users\\MSI\\eclipse-workspace\\chromedriver-win64\\chromedriver.exe");
-				driver = new ChromeDriver();
+			    WebDriverManager.chromedriver().setup();
+			    driver = new ChromeDriver();
 			} else if (browser.equals("Mozilla")) {
-				System.setProperty("webdriver.gecko.driver", "D:\\Common\\drivers\\geckodriver.exe");
-				driver = new FirefoxDriver();
+			    WebDriverManager.firefoxdriver().setup();
+			    driver = new FirefoxDriver();
 			} else if (browser.equals("Edge")) {
-				System.setProperty("webdriver.edge.driver", "D:\\Common\\msedgedriver.exe");
-				driver = new EdgeDriver();
+			    WebDriverManager.edgedriver().setup();
+			    driver = new EdgeDriver();
 			}
 		}
 		// implicit wait
