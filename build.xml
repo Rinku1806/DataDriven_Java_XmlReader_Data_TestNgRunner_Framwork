@@ -2,7 +2,7 @@
 <!DOCTYPE project [
 ]>
 
-<project name="DataDrivenFramework_Javab_XmlData_TestNgRunner" default="usage" basedir="C:/Users/MSI/eclipse-workspace/DataDrivenFramework_Javab_XmlData_TestNgRunner">  
+<project name="DataDriven_Java_XmlReader_Data_TestNgRunner_Framwork" default="usage" basedir=".">  
 
 <!-- ========== Initialize Properties =================================== -->
     <property environment="env"/>
@@ -11,7 +11,7 @@
 	<property name="ws.jars" value="C:\Users\MSI\.m2\repository"/>
     <property name="test.dest" value="${ws.home}/build"/>
     <property name="test.src" value="${ws.home}/src"/>
-	<property name="ng.result" value="C:\Users\MSI\eclipse-workspace\DataDrivenFramework_Javab_XmlData_TestNgRunner\target\surefire-reports"/>
+	<property name="ng.result" value="${ws.home}/target/surefire-reports"/>
     
     <!--target name="start-selenium-server">
         <java jar="${ws.home}/lib/selenium-server.jar"/>
